@@ -2,11 +2,11 @@ body{
 	background:#333333 url(images/page-bg.jpg);
 	margin:0px;
 	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
-	color:#a4a4a4;
+	color:#6a6969;
 }
-h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#bdbdbd;}
-h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#bdbdbd;}
-h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#bdbdbd;}
+h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
 ul{margin:0px; padding:0px;}
 a {text-decoration:none; color:#6a6969;}
 a:hover {color:#979797;}
@@ -90,53 +90,33 @@ a img{border:0px;}
 #about .content #service-icons li.services-design{background:url(images/icon-1.png) no-repeat;}
 #about .content #service-icons li.services-mobile{background:url(images/icon-2.png) no-repeat;}
 #about .content #service-icons li.services-film{background:url(images/icon-3.png) no-repeat;}
-#about .content #service-icons li.services-photo{background:url(images/icon-4.png) no-repeat;}
+#about .content #service-icons li.services-photo{background:url(images/icon-4.png) no-repeat
 
 
-/****************************************************/
-/* EDUCATION SECTION */
-/****************************************************/
-
-#education{margin:0px 43px; padding-top:20px;}
-#education .lcol{
-	width:400px;
-	float:left;
-	margin:14px
-}
-#education .content{overflow:auto;}
-#education .rcol{
-	width:400px;
-	float:right;
-	margin:14px
-}
 
 /****************************************************/
 /* EXPERIENCE SECTION */
 /****************************************************/
 
-#experience{margin:0px 43px; padding-top:20px;}
+#experience{margin:0px 43px; padding-top:115px;}
 #experience .col{
-	width:225px;
+	width:235px;
 	float:left;
-	margin:14px
 }
 #experience .content{overflow:auto;}
 #experience .col-mid{margin:0px 65px;}
 
 /****************************************************/
-/* Code SECTION */
+/* WORK SECTION */
 /****************************************************/
 
-#work{margin:0px 43px; padding-top:20px;}
-#work .a{color:#00f}
+#work{margin:0px 43px; padding-top:115px;}
 #work .content{overflow:auto;}
 #work #work-thumbs li{
-	
+	list-style:none;
 	float:left;
-	margin:0px 20px 15px 14px;
+	margin:0px 20px 15px 0px;
 	padding:0px;
-	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
-	
 }
 #work #work-thumbs li.last{margin:0px;}
 
@@ -202,12 +182,16 @@ a img{border:0px;}
 #connect #social-footer #sm-links li a{
 	display:block;
 	text-indent:-9999px;
-	width:40px; 
-	height:40px;
+	width:26px; 
+	height:26px;
 	margin-right:10px;
 }
 #connect #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
-#connect #social-footer #sm-links li a.blogger{background:url(images/sm-blogger-icon.png) no-repeat; width:40px;}
+#connect #social-footer #sm-links li a.blogger{background:url(images/sm-blogger-icon.png) no-repeat; width:26px;}
+#connect #social-footer #sm-links li a.dribble{background:url(images/sm-dribble-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.vimeo{background:url(images/sm-vimeo-icon.png) no-repeat; width:27px;}
+#connect #social-footer #sm-links li a.google{background:url(images/sm-google-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
 #connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
 /****************************************************/
